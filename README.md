@@ -7,8 +7,8 @@ Enthält die monatlichen Reports mit täglichen Angaben zur Energie pro Wechselr
 # xlsx to csv.py:
 Iteriert über Ordner mit excel Datien, wandelt sie in csv Datien um und legt sie in neuem Ziel Ordner ab.
 
-# read xlsxl and csv.py:
-Zeigt Dateiformate in Konsole an.
-
 # Rohdaten als csv
 Ordner welcher alle Daten im csv Format enthält.
+
+# read xlsxl and csv.py:
+Zeigt Dateiformate in Konsole an.
