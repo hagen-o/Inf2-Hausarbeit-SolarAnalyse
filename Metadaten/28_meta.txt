@@ -1,0 +1,8 @@
+Anlagenleistung: 9,24kWp
+IBN: 30.9.2010
+Ausrichtung: SO
+Neigung: flaches Satteldach
+WR: SMA Sunny Boy, Leistung unbekannt
+
+
+Lokation: 49.479738672448875, 7.712669380399531

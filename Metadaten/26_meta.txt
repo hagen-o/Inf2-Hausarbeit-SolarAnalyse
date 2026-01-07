@@ -1,0 +1,6 @@
+IBN: 2012, vermutlich November, 18,5 ¢ Einspeisevergütung (das würde auf September passen)
+Leistung: 7,44 kWp
+Ausrichtung/Neigung: Teilw. nach SW im Idealwinkel aufgeständert, teilw. SW 15 °, teilw. NO 15 °
+WR: Aurora PVI-5000 und ein zweiter, kleinerer WR
+
+Lokation: 49.4859476174658, 8.36389343748777

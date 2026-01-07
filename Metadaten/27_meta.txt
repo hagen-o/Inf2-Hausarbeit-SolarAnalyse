@@ -1,0 +1,8 @@
+IBN: Juli 2013
+Leistung: 11,75 kWp
+Ausrichtung: WSW
+Neigung: 22° (?)
+WR: SMA Sunny Tripower 12000
+
+
+Lokation: 49.4859476174658, 8.36389343748777
