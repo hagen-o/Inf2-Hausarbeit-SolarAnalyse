@@ -92,13 +92,13 @@ for file in FILES:
     max_power = MAX_POWER_BY_FILE[file]
     cleaned_data[file] = clean_pv_measurements(path, max_power)
 
-# Optional: Zusammenführen
+# Zusammenführen
 df_all = pd.concat(
     cleaned_data.values(),
     keys=cleaned_data.keys(),
     names=["source_file", "row"]
 ).reset_index(level="source_file")
 
-# Quick-Checks
+# Checks
 print(df_all.info())
 print(df_all.describe())
