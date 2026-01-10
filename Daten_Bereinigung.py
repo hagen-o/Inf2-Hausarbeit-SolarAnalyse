@@ -102,3 +102,12 @@ df_all = pd.concat(
 # Checks
 print(df_all.info())
 print(df_all.describe())
+
+# bereinigte Daten speichern
+OUT_DIR = Path("Bereinigt")
+OUT_DIR.mkdir(exist_ok=True)
+
+for filename, df in cleaned_data.items():
+    out_path = OUT_DIR / f"cleaned_{filename}"
+    df.to_csv(out_path, index=False)
+    print(f"Gespeichert: {out_path}")
