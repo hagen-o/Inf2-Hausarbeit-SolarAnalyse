@@ -3,7 +3,8 @@ from pathlib import Path
 import numpy as np
 
 # Konfiguration
-DATA_DIR = Path(r"C:\HKA\Informatik II 25_26\Solar-Hausarbeit\Inf2-Hausarbeit-SolarAnalyse\Rohdaten")
+DATA_DIR = Path(DATA_DIR = Path(r"C:\Users\Hagen\OneDrive\HKA\WS25-26\Informatik2\Matthias\Hausarbeit\Inf2-Hausarbeit-SolarAnalyse\Rohdaten")
+)
 FILES = [
     "26_measurements.csv",
     "27_measurements.csv",
@@ -91,6 +92,15 @@ for file in FILES:
     path = DATA_DIR / file
     max_power = MAX_POWER_BY_FILE[file]
     cleaned_data[file] = clean_pv_measurements(path, max_power)
+
+# bereinigte Daten speichern
+OUT_DIR = Path("Bereinigt")
+OUT_DIR.mkdir(exist_ok=True)
+
+for filename, df in cleaned_data.items():
+    out_path = OUT_DIR / f"cleaned_{filename}"
+    df.to_csv(out_path, index=False)
+    print(f"Gespeichert: {out_path}")
 
 # Zusammenführen
 df_all = pd.concat(
