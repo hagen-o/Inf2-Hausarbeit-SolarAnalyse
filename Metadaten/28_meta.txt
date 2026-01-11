@@ -5,4 +5,4 @@ Neigung: flaches Satteldach
 WR: SMA Sunny Boy, Leistung unbekannt
 
 
-Lokation: 49.479738672448875, 7.712669380399531
+Lokation: 49.479738672448875, 7.712669380399531 

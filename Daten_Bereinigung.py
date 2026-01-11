@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 
 # Konfiguration
-DATA_DIR = Path(r"C:\Users\Hagen\OneDrive\HKA\WS25-26\Informatik2\Matthias\Hausarbeit\Inf2-Hausarbeit-SolarAnalyse\Rohdaten")
+DATA_DIR = Path(r"C:\HKA\Informatik II 25_26\Solar-Hausarbeit\Inf2-Hausarbeit-SolarAnalyse\Rohdaten")
 FILES = [
     "26_measurements.csv",
     "27_measurements.csv",
