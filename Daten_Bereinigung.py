@@ -114,5 +114,4 @@ print(df_all.info())
 print(df_all.describe())
 
 #Daten speichern
-
 df_all.to_csv("pv_cleaned_all.csv", index=False)
